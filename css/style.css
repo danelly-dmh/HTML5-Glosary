@@ -1,0 +1,74 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.2em;
+    text-indent: 25px;
+  letter-spacing: 2px;
+ }
+ header{
+    font-family: 'Courier';
+    text-align: center;
+    line-height: 5em;
+    background-color: gray;
+ }
+ #titulo{
+    font-size: 3rem;
+ }
+ div{
+    background-color: pink;
+
+ }
+div.lexique{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -moz-column-rule: 5px dotted gray;
+    font-size: 1.1rem;
+}
+div.set{
+    display: inline-flex;
+    width: 90%;
+}
+h3.letter{
+    color: #4B088A;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding-left: 3em;
+}
+ul li{
+    margin: 1em;
+}
+a, a:visited{
+    color: #380B61;
+}
+a:hover{
+    color: #00BFFF;
+}
+#descrip{
+    font-family: 'Trebuchet MS';
+    font-size: 1.5em;
+    width: 50%;
+    float: right;
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 25px;
+    border: 5px solid black;
+    padding: .4em;
+
+}
+#imagen{
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+#footer{
+    color: black;
+    font-size: 1.5em;
+    padding: .6em;
+    text-align: center;
+    background-color: gray;
+}
